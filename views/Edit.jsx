@@ -7,6 +7,7 @@ class Edit extends React.Component {
         <head />
         <body>
           <h4>Editing: {this.props.pokemon.name}</h4>
+          <img src= {this.props.pokemon.img}/>
           <form
             className="pokemon-form"
             method="POST"

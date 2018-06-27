@@ -6,6 +6,8 @@ class Pokemon extends React.Component {
       <html>
         <head />
         <body>
+        <h1> Who this? </h1>
+        <img src= {this.props.pokemon.img}/>
           <div>
             <ul className="pokemon-list">
               <li className="pokemon-attribute">
